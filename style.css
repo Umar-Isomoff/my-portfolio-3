@@ -187,6 +187,7 @@ header ul a:hover{
     -webkit-text-fill-color: transparent;
     animation: animate-gradient 2.5s linear infinite;
 }
+
 @keyframes animate-gradient {
     to{
         background-position: 200%;
