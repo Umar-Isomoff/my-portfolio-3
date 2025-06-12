@@ -8,7 +8,76 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.btn{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+    right:70px ;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(79, 0, 158);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    box-shadow: 0px 0px 0px 0px rgba(144, 0, 255, 0.511);
+    margin-bottom: 50px;
+   
+}
+.callimg{
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+.btn2{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right:70px ;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(79, 0, 158);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    box-shadow: 0px 0px 0px 0px rgba(144, 0, 255, 0.511);
+   
+}
+.email{
+    position: relative;
+    left: 5px;
+    top: 8px;
+}
+.emailicons{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+ @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+@keyframes pulse {
+    0%{
+        transform: scale(0.95);
+        box-shadow:0 0 0 0 rgba(144, 0,225,0.500);
+    }
 
+    50%{
+        transform: scale(1);
+        box-shadow: 0 0 0 16px rgba(255, 122, 63, 0);
+    }
+
+    100%{
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 122, 63, 0);
+    }
+}
 .container{
     position: relative;
     width: 100%;
@@ -233,7 +302,7 @@ header ul a:hover{
   .scroll-down::before {
     top: 30%;
     animation-delay: 0.5s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
+
   }
   
   @keyframes scroll-down {
@@ -615,6 +684,24 @@ header ul a:hover{
 }
 .slider .list .item img{
     width: 100%;
+}
+.a1{
+    color: white;
+}
+.a1:hover{
+    color: red;
+}
+.a2{
+    color: white;
+}
+.a2:hover{
+    color: black;
+}
+.a3{
+    color: white;
+}
+.a3:hover{
+    color: blue;
 }
 @keyframes autoRun{
     from{
